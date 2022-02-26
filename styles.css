@@ -33,7 +33,7 @@ body {
   text-transform: uppercase;
 }
 
-.h3 {
+.h3, p, h5 {
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -55,4 +55,31 @@ iframe {
 }
 
 /* your styles here */
+
+.list-wrap{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color:#f4f4f4;
+    
+}
+
+.list-item{
+    background-color: #34344d;
+    color:#f4f4f4;
+    padding: 0 20px;
+    margin:  0 3%;
+    width: 11%;
+    border-radius: 0 15px;
+}
+
+.list-item p{
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 175%;
+}
+
+li {
+    list-style: none;
+}
 
