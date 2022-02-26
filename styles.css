@@ -68,7 +68,7 @@ iframe {
     background-color: #34344d;
     color:#f4f4f4;
     padding: 0 20px;
-    margin:  0 3%;
+    /* margin: 0 3%; */
     width: 11%;
     border-radius: 0 15px;
 }
@@ -77,9 +77,16 @@ iframe {
     font-size: 10px;
     font-weight: 100;
     line-height: 175%;
+    margin:0
+    
 }
 
 li {
     list-style: none;
+}
+
+.curved-line{
+    width: 60px;
+    height: 10%;
 }
 
