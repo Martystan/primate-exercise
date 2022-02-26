@@ -138,4 +138,18 @@ li {
     list-style: none;
 }
 
+.node-one{
+    object-fit: contain;
+    height: 15px;
+    position:relative;
+    top: 303px;
+}
+
+.node-two{
+    object-fit: contain;
+    height: 13px;
+    position:relative;
+    top: 13px;
+}
+
 
