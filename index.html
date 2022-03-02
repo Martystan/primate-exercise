@@ -2,6 +2,14 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script>
+      function display() {
+        const col = document.getElementById("right-dot");
+        col.style.backgroundColor = "yellow"
+        const lineColor = document.getElementById("connector-left");
+        lineColor.style.borderColor = "yellow"
+}
+    </script>
   </head>
 
   <body>
@@ -48,11 +56,10 @@
             <h5>Positivity breeds success. Negativity wouldn't know anything about it.</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </li>
-      <li class= "dot-left"></li>
-      <li class = "connector-left"></li>
+      <li class= "dot-left" id = "left-dot"></li>
+      <li class = "connector-left" id = "connector-left"></li>
       <li class = "connector-right"></li>
-      <li class= "dot-right"></li>
-      <li class= "circle2"></li>
+      <li class = "dot-right" id = "right-dot"></li>
       <li class = "list-item">
           <h5>Positivity breeds success. Negativity wouldn't know anything about it.</h5>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.  </p>
@@ -67,6 +74,7 @@
     </li>
         
 </ul>
+<button onclick = "display()">Change color</button>
 
 
       
