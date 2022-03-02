@@ -28,6 +28,12 @@
       <!-- Below are two solutions to the task, one utilizing graphic elements provided, and a second one where I attempted to recreate all of the elements using CSS only. In both cases I opted to use flexbox only to create the desired layout, in retrospect I would've done better to use grid, it would've serve better the purpose of creating responsive design taking into account the behaviour of the elements in between the main list items, as you will see they don't stretch as they should if the list items get larger in both cases. Each of the solutions has serious drawbacks, in the case of second option I had to use 'align-items: center' to ensure that the line connects the adjacent  li elements elements correctly, which does not correspond to the expected layout. In the two hours I had I haven't managed to figure out how to have the dots overlap the neighbouring elements, I could have of course positioned them on the border, but that would've caused a gap between the line and the border of the li element. 
         
     -->
+    <!--
+      UPDATE
+       I've played a bit with the styling, the changes are the following:
+    -in both design options I've added negative margin to the node/dot element so that it overlaps adjacent elements
+    - I attempted to make the second option design fully responsive so that the connecting lines stretch depending on the size of the paragraph, I managed to get the connecting line to stretch, but the dot is still misbehaving. If I were to try something else I would probably experiment with absolute/relative positioning to keep the dots always at the end of the connecting lines.
+    -It was pointed out to me that I have missed a part of the assignment, which is making the elements change colors. I don't know how to do this without JS (I don't think it's possible?), so I added a script to do that, haven't applied it to all the elements, just tested if it works and it does. -->
       <ul class = "list-wrap-option1">
           <li class = "list-item">
              <h5>Positivity breeds success. Negativity wouldn't know anything about it.</h5> 
